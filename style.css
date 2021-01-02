@@ -1,0 +1,61 @@
+body {
+    background-color: lightslategrey;
+}
+
+.form-group {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    width: 600px;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: rgb(101, 224, 163);
+    box-shadow: 0 0 10px rgba(0, 1, 1, 1);
+}
+
+#tip {
+    text-align: center;
+    background-color: darkslategray;
+    color: floralwhite;
+    height: 50px;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+button {
+    border-radius: 5px;
+    background-color: darkslategray;
+    color: floralwhite;
+    width: 150px;
+    height: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgb(36, 36, 36);
+    color: honeydew;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+}
+
+#totalTip {
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#totalTip sup {
+    font-size: 20px;
+}
+
+#totalTip small {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
